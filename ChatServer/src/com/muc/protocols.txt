@@ -1,0 +1,32 @@
+User & Server
+
+1. User -> Server
+
+    * login/logoff
+    * status
+
+2. Server -> User
+
+    * online/offline
+
+3. User -> User
+
+    * direct messages
+    * broadcast messages / group message
+
+
+Commands:
+
+    * Login/ Logoff
+
+
+  msg login <body>
+guest: "msg pavan Hello World"
+pavan : "msg guest Hello World"
+
+
+#topic <--- groupchat / chatroom
+
+join #topic
+msg topic <body>
+to be received msg <topic> <login> <body>
